@@ -1,0 +1,136 @@
+.body{
+    
+}
+
+.todo-container{
+    background:rgba(0, 0, 0, 0.324);
+    width:40vw;
+    margin:5em auto;
+    border-radius: 30px;
+    padding:10px;
+    color:white;
+    box-shadow: 2px 8px 10px rgba(0, 0, 0, 0.5);
+}
+.header{
+    font-size:1em;
+    text-align:center;
+    color: white;
+}
+.input-container{
+    background-color:rgb(255, 255, 255);
+    padding: 0.5em;
+    border-radius:1em;
+    border:1.5px solid rgba(65, 16, 16, 0.929);
+}
+.input{
+    font-size: 1em;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.365);
+    border: 1px;
+    border-radius: 1em;
+    padding:.2em;
+    margin:1em;
+    width:40%;
+}
+ 
+ .add-btn{
+    border-radius:20px;
+    color: wheat;
+    font-size:1.5em;
+    margin:6px;
+    padding: 0px 15px;
+    border:2px solid rgb(0, 0, 0);
+    cursor: pointer;
+    color:black;
+    background-color: rgb(55, 162, 34);
+
+
+ }
+ .add-btn {
+    /* Existing styles */
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-btn:hover {
+    background-color: rgb(76, 175, 80);
+  }
+ .list-tasks{
+    font-size: 1.0em;
+    font-weight: bold;
+    font-style:italic;
+    color:black;
+    background-color: white;
+    border:1px solid black;
+    border-radius: 30px;
+    padding:0.50em;
+    margin:.5em;
+ }
+ .list-tasks {
+    /* Existing styles */
+    margin-bottom: 1em;
+    padding: 0.5em 1em;
+  }
+ .delete-btn{
+
+    border-radius: 10px;
+    margin:0px 5px;
+    padding:3px 1px;
+    border:10px black;
+    cursor:pointer;
+    color:black;
+    float:right;
+
+    
+    background-color: red;
+ }
+ .delete-btn {
+    /* Existing styles */
+    transition: transform 0.3s ease;
+  }
+  
+  .delete-btn:hover {
+    transform: scale(1.1);
+  }
+
+  .header {
+    font-family: "Arial", sans-serif;
+    font-size: 2.5em;
+    font-weight: bold;
+  }
+
+  
+  
+  .todo-container {
+  background: linear-gradient(135deg, #282c34, #40465b);
+  /* Rest of the styles */
+}
+
+.header {
+  color: #fff;
+}
+
+.input-container {
+  background-color: #fff;
+  border: 1.5px solid #d9d9d9;
+}
+
+.input {
+  color: #333;
+}
+
+.add-btn {
+  color: #fff;
+  background-color: #57bb8a;
+  border: 2px solid #000;
+}
+
+.list-tasks {
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.delete-btn {
+  color: #fff;
+  background-color: #e74c3c;
+}
